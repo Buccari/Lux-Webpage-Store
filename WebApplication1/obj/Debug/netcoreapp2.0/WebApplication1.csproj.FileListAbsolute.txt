@@ -8,3 +8,4 @@ D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcor
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb
+D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojResolveAssemblyReference.cache
