@@ -3,7 +3,6 @@ D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\bin\Debug\netcor
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\LuxWebpageStore.runtimeconfig.dev.json
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\LuxWebpageStore.dll
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.0\LuxWebpageStore.pdb
-D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.csprojResolveAssemblyReference.cache
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.csproj.CoreCompileInputs.cache
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.AssemblyInfoInputs.cache
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.AssemblyInfo.cs
