@@ -1,2 +1,0 @@
-﻿ALTER TABLE dbo.Products 
-ALTER COLUMN InStock BIT NOT NULL;

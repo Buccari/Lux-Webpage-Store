@@ -1,2 +1,0 @@
-﻿ALTER TABLE dbo.ProductSorters
-ALTER COLUMN Name NVARCHAR(200) NOT NULL;
