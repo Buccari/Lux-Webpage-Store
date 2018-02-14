@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/lib/jQuery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <title>@ViewBag.Title</title>
+
+    <style>
+        .centered {
+            position: fixed;
+            top: 50%;
+            left: 46%;
+            /* bring your own prefixes */
+            transform: translate(-50%, -50%);
+        }
+
+        .btn {
+            width: 200px;
+            max-width: 200px;
+        }
+
+        .li {
+            margin: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <ul style="list-style-type:none;" class="centered">
+                <li style="margin: 100px 0;"><a href="/Product/ProductList" class="btn btn-outline-primary">Products</a></li>
+                <li style="margin: 100px 0;"><a href="/Account/Login" class="btn btn-outline-primary">Login</a></li>
+                <li style="margin: 100px 0;"><a href="/Account/Register" class="btn btn-outline-primary">Register</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
