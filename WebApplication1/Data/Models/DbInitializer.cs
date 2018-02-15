@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Linq;
 using WebApplication1.Data;
-using LuxWebpageStore.Data.Repositories;
+using WebApplication1.Data.Repositories;
 
 namespace WebApplication1.Data.Models
 {

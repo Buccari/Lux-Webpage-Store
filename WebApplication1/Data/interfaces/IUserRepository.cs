@@ -1,10 +1,11 @@
-﻿using LuxWebpageStore.Data.Repositories;
+﻿using WebApplication1.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApplication1.Data.Models;
 
-namespace LuxWebpageStore.Data.interfaces
+namespace WebApplication1.Data.interfaces
 {
     public interface IUserRepository
     {

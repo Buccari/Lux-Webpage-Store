@@ -15,8 +15,6 @@ using WebApplication1.Data.Repositories;
 using WebApplication1.Data.Models;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Identity;
-using LuxWebpageStore.Data.interfaces;
-using LuxWebpageStore.Data.Repositories;
 
 namespace WebApplication1
 {

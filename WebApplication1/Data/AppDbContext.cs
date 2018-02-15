@@ -1,4 +1,4 @@
-﻿using LuxWebpageStore.Data.Repositories;
+﻿using WebApplication1.Data.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

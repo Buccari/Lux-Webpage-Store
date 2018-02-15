@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LuxWebpageStore.Data.interfaces;
-using LuxWebpageStore.Data.Repositories;
+using WebApplication1.Data.interfaces;
+using WebApplication1.Data.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Data;
 
@@ -30,6 +30,14 @@ namespace WebApplication1.Controllers
             //viewModel.CurrentProductSorter = "ProductSorter";
 
             return View(_userRepository.GetUserByID(1));
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        public IActionResult Register()
+        {
+            return View();
         }
     }
 }

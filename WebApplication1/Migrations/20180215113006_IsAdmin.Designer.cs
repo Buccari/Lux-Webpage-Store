@@ -21,7 +21,7 @@ namespace WebApplication1.Migrations
                 .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("LuxWebpageStore.Data.Repositories.User", b =>
+            modelBuilder.Entity("WebApplication1.Data.Repositories.User", b =>
                 {
                     b.Property<int>("UserID")
                         .ValueGeneratedOnAdd();

@@ -1,11 +1,12 @@
-﻿using LuxWebpageStore.Data.interfaces;
+﻿using WebApplication1.Data.interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApplication1.Data;
+using WebApplication1.Data.Models;
 
-namespace LuxWebpageStore.Data.Repositories
+namespace WebApplication1.Data.Repositories
 {
     public class UserRepository : IUserRepository
     {
@@ -16,6 +17,10 @@ namespace LuxWebpageStore.Data.Repositories
         }
         public IEnumerable<User> Users => _appDbContext.UsersData;
 
-        public User GetUserByID(int userID)=> _appDbContext.UsersData.FirstOrDefault(user => user.UserID == userID);
+        IEnumerable<User> IUserRepository.Users => throw new NotImplementedException();
+
+        User IUserRepository.GetUserByID(int userID) => _appDbContext.UsersData.FirstOrDefault(user => user.UserID == userID);
+
+       
     }
 }

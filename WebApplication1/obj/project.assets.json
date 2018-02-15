@@ -13134,9 +13134,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\LuxWebpageStore.csproj",
-      "projectName": "LuxWebpageStore",
-      "projectPath": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\LuxWebpageStore.csproj",
+      "projectUniqueName": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectName": "WebApplication1",
+      "projectPath": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\GCodeMisfit\\.nuget\\packages\\",
       "outputPath": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
