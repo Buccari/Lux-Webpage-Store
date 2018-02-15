@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using LuxWebpageStore.Data.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,5 +15,6 @@ namespace WebApplication1.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options){}
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductSorter> ProductSorters { get; set; }
+        public DbSet<User> UsersData { get; set; }
     }
 }

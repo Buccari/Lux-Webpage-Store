@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Linq;
 using WebApplication1.Data;
+using LuxWebpageStore.Data.Repositories;
 
 namespace WebApplication1.Data.Models
 {
@@ -17,6 +18,39 @@ namespace WebApplication1.Data.Models
             if (!context.ProductSorters.Any())
             {
                 context.ProductSorters.AddRange(ProductSorters.Select(c => c.Value));
+            }
+            if (!context.UsersData.Any())
+            {
+                context.AddRange
+                (
+                    new User
+                    {
+                        FirstName = "Endy",
+                        LastName = "Prekpalaj",
+                        Email = "endy.prekpalaj@hotmail.com",
+                        Password = "test",
+                        IsAdmin = true,
+                        IsEmailVerified=true
+                    },
+                    new User
+                    {
+                        FirstName = "Josip",
+                        LastName = "Rukavina",
+                        Email = "jrukavina@hotmail.com",
+                        Password = "testRuki",
+                        IsAdmin = false,
+                        IsEmailVerified = false
+                    },
+                    new User
+                    {
+                        FirstName = "Samuel",
+                        LastName = "Kolgjeraj",
+                        Email = "samuel.kolgjeraj123@gmail.com",
+                        Password = "testSamke",
+                        IsAdmin = false,
+                        IsEmailVerified = false
+                    }
+                );
             }
 
             if (!context.Products.Any())

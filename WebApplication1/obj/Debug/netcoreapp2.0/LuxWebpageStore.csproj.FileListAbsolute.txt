@@ -8,3 +8,4 @@ D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcor
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.AssemblyInfo.cs
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.dll
 D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.pdb
+D:\Magic Wonderland Of Unicorns\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.0\LuxWebpageStore.csprojResolveAssemblyReference.cache

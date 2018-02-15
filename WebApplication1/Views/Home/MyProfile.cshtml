@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "My profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model LuxWebpageStore.Data.Repositories.User
+
+<div class="container">
+    <div class="row">
+        <ul style="list-style-type:none;" class="centered">
+            <li style="margin: 50px 0;">@Model.FirstName</li>
+            <li style="margin: 50px 0;">@Model.LastName</li>
+            <li style="margin: 50px 0;">@Model.Email</li>
+            <li style="margin: 50px 0;">@Model.UserID</li>
+
+        </ul>
+    </div>
+</div>
+

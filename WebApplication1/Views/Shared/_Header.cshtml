@@ -1,4 +1,6 @@
-﻿<nav class="navbar navbar-expand-lg navbar-light bg-light">
+﻿@model LuxWebpageStore.Data.Repositories.User
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">VSITEPIN PROJECT</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -9,7 +11,10 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
+                <a class="nav-link" href="/Home/MyProfile">My profile</a>
+            </li>
+            <li class="nav-item active">
                 <a class="nav-link" href="#">All products</a>
             </li>
         </ul>

@@ -15,6 +15,8 @@ using WebApplication1.Data.Repositories;
 using WebApplication1.Data.Models;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Identity;
+using LuxWebpageStore.Data.interfaces;
+using LuxWebpageStore.Data.Repositories;
 
 namespace WebApplication1
 {
@@ -36,8 +38,11 @@ namespace WebApplication1
 
             services.AddDbContext<AppDbContext>(options =>
            options.UseSqlServer(_configurationRoot.GetConnectionString("DefaultConnection")));
+
             services.AddTransient<IProductSorterRepository, ProductSorterRepository>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
+
             services.AddMvc();
         }
 
