@@ -13125,7 +13125,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GCodeMisfit\\.nuget\\packages\\": {},
+    "C:\\Users\\GCodeMisfitAdmin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13137,14 +13137,14 @@
       "projectUniqueName": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
       "projectPath": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\GCodeMisfit\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\GCodeMisfitAdmin\\.nuget\\packages\\",
       "outputPath": "D:\\Magic Wonderland Of Unicorns\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\GCodeMisfit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GCodeMisfitAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
